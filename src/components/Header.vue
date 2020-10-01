@@ -1,13 +1,31 @@
 <template>
-    <div id="header">
-        <p>Hello From Header</p>
+    <div class="header">
+        <h1 class="heading">
+            {{heading}}
+        </h1>
+        <div class="header-info">
+            <h2 class="header-info__subheading">
+                {{subheading}}
+            </h2>
+
+            <p class="header-info__content">
+                {{content}}
+            </p>
+        </div>
     </div>
 </template>
 
-<style lang="scss">
-    $primary-color: black;
+<script>
+export default {
+  name: 'Header',
+  props: {
+    heading: String,
+    subheading: String,
+    content: String,
+  }
+}
+</script>
 
-    #header{
-        background: $primary-color;
-    }
+<style lang="scss">
+    @import "../scss/header";
 </style>

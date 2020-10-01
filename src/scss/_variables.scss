@@ -1,0 +1,31 @@
+// ****************
+// * Fonts Import *
+// ****************
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+$font-content: 'Poppins', sans-serif;
+$font-title: 'PT Serif', serif;
+$font-footer: 'Montserrat', sans-serif;
+
+// *******************
+// * Color Variables *
+// *******************
+$primary-color: black;
+$background-color: white;
+$footer-font-color: #A9A9A9;
+
+// **************
+// * Font Sizes *
+// **************
+$heading-font: 2.25rem;
+$subheading-font: 1.125rem;
+$normal-font: 1.125rem;
+$normal-mobile-font: 0.875rem;
+$vertical-font: 0.75rem;
+$vertical-mobile-font: 0.625rem;
+
+// ******************
+// * Font Typefaces *
+// ******************
+$regular: 400;
+$semibold: 600;
+$bold: 700;

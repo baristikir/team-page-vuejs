@@ -1,6 +1,12 @@
 <template>
-  <Header/>
-  <Cards/>
+<div class="container">
+  <Header 
+    heading="The creative crew" 
+    subheading="Who we are"
+    content="We are team of creatively diverse.  driven.  innovative individuals working in various locations from the world."
+  />
+  <Cards v-bind:cards="cards"/>
+</div>
 </template>
 
 <script>
@@ -12,17 +18,56 @@ export default {
   components: {
     Header,
     Cards
+  },
+  data() {
+    return{
+      cards: [
+        {
+          name: 'Bill Mahoney',
+          job: 'Product Owner',
+          profile: '../assets/photo1.png'
+        },
+        {
+          name: 'Saba Cabrera',
+          job: 'Art Director',
+          profile: '../assets/photo2.png'
+        },
+        {
+          name: 'Shae Le',
+          job: 'Tech Lead',
+          profile: '../assets/photo3.png'
+        },
+        {
+          name: 'Skylah Lu',
+          job: 'UX Designer',
+          profile: '../assets/photo4.png'
+        },
+        {
+          name: 'Griff Richards',
+          job: 'Developer',
+          profile: '../assets/photo5.png'
+        },
+        {
+          name: 'Stan John',
+          job: 'Developer',
+          profile: '../assets/photo6.png'
+        },
+      ]
+    }
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style lang="scss">
+@import "./scss/globals";
+@import "./scss/mixins";
+.container{
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include breakpoint('m'){
+    max-width: 1024px;
+  }
 }
 </style>

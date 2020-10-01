@@ -1,0 +1,28 @@
+// ************************
+// * Mixins + Breakpoints *
+// ************************
+$media-direction: min;
+
+$breakpoints: (
+    'xs':  480px,
+    's':   667px,
+    'm':   1024px,
+    'l':   1280px,
+    'xl':  1680px,
+);
+
+@mixin breakpoint($size, $direction: $media-direction) {
+
+    @if map-has-key($breakpoints, $size) {
+        @media (#{$direction}-width: #{map-get($breakpoints, $size)}) {
+            @content;
+        }
+    }
+    @else if unitless($size) {
+        $size: $size + 0px;
+
+        @media (#{$direction}-width: $size) {
+            @content;
+        }
+    }
+}

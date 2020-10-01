@@ -1,0 +1,58 @@
+@import "variables";
+@import "mixins";
+// *****************
+// * Header Styles *
+// *****************
+.header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    margin-left: 12px;
+    margin-right: 12px;
+
+    @include breakpoint('s') {
+        flex-direction: row;
+        margin-top: 39px;
+    }
+    @include breakpoint('l'){
+        margin-top: 109px;
+    }
+
+    .heading{
+        font-family: $font-title;
+        font-weight: $semibold;
+        font-size: $heading-font;
+        margin: 0;
+        padding: 0;
+        top: 0; 
+
+        @include breakpoint('s') {
+        }
+        @include breakpoint('l'){
+        }
+    }
+    
+    .header-info{
+        @include breakpoint('s'){
+            padding-left: 115px;
+        }
+        @include breakpoint('m'){
+            padding-left: 215px;
+        }
+
+        &__subheading{
+            font-size: $subheading-font;
+            font-weight: $semibold;
+            text-transform: uppercase;
+        }
+        &__content{
+            font-weight: $regular;
+            font-size: $normal-font;
+            max-width: 330px;
+
+            @include breakpoint('s') {
+                max-width: 439px;
+            }
+        }
+    }
+}
