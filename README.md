@@ -35,8 +35,10 @@
 
 ## Overview
 
-![screenshot](https://i.ibb.co/qMgRLfy/screencapture-pedantic-khorana-ceac50-netlify-app-2020-10-01-21-08-43.png)
+<div align="center">
 
+![screenshot](https://i.ibb.co/qMgRLfy/screencapture-pedantic-khorana-ceac50-netlify-app-2020-10-01-21-08-43.png)
+</div>
 <div align="center">
 
 ![mobile-screenshot](https://i.ibb.co/fpzt1cR/screencapture-pedantic-khorana-ceac50-netlify-app-2020-10-01-21-09-32.png)
