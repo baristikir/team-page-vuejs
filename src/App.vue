@@ -6,18 +6,21 @@
     content="We are team of creatively diverse.  driven.  innovative individuals working in various locations from the world."
   />
   <Cards v-bind:cards="cards"/>
+  <Footer/>
 </div>
 </template>
 
 <script>
 import Cards from './components/Cards.vue'
 import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
-    Cards
+    Cards,
+    Footer
   },
   data() {
     return{

@@ -24,11 +24,12 @@
         font-size: $heading-font;
         margin: 0;
         padding: 0;
-        top: 0; 
+        top: 0;
 
         @include breakpoint('s') {
         }
         @include breakpoint('l'){
+            padding-left: 30px;
         }
     }
     
@@ -44,6 +45,10 @@
             font-size: $subheading-font;
             font-weight: $semibold;
             text-transform: uppercase;
+            padding-top: 24px;
+            @include breakpoint('s'){
+                padding-top: 0px;
+            }
         }
         &__content{
             font-weight: $regular;
