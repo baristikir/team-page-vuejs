@@ -13,6 +13,12 @@
     @include breakpoint('s') {
         flex-direction: row;
         margin-top: 39px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    @include breakpoint('m'){
+        margin-left: 42px;
+        margin-right: 42px;
     }
     @include breakpoint('l'){
         margin-top: 109px;
@@ -22,15 +28,10 @@
         font-family: $font-title;
         font-weight: $semibold;
         font-size: $heading-font;
+        letter-spacing: -0.045em;
         margin: 0;
         padding: 0;
         top: 0;
-
-        @include breakpoint('s') {
-        }
-        @include breakpoint('l'){
-            padding-left: 30px;
-        }
     }
     
     .header-info{
@@ -52,10 +53,11 @@
         }
         &__content{
             font-weight: $regular;
-            font-size: $normal-font;
+            font-size: $normal-mobile-font;
             max-width: 330px;
 
             @include breakpoint('s') {
+                font-size: $normal-font;
                 max-width: 439px;
             }
         }

@@ -1,8 +1,10 @@
 <template>
+    <!-- Header -->
     <div class="header">
         <h1 class="heading">
             {{heading}}
         </h1>
+        <!-- Subheading + Content -->
         <div class="header-info">
             <h2 class="header-info__subheading">
                 {{subheading}}

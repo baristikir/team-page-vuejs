@@ -44,8 +44,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 ## Support
-<a href="https://www.buymeacoffee.com/baris" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
+<div align="center">
+<a href="https://www.buymeacoffee.com/baris" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-white.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+</div>
 ### Project setup
 ```
 npm install
@@ -70,9 +71,8 @@ npm run lint
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
 - [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [SCSS](https://sass-lang.com/)
 
 ## Features
 
@@ -91,6 +91,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [brsktr.com](https://www.brstkr.com/)
+- GitHub [@brstkr](https://www.github.com/brstkr)

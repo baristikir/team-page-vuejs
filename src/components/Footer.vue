@@ -12,11 +12,15 @@ export default {
 
 <style lang="scss">
 @import "../scss/variables";
+@import "../scss/mixins";
 footer{
     position: relative;
-    margin-top: 8rem;
+    margin-top: 5.5rem;
     text-align: center;
 
+    @include breakpoint('s'){
+        margin-top: 12.5rem;
+    }
     > span{
         font-family: $font-footer;
         font-size: $vertical-mobile-font;
