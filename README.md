@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://pedantic-khorana-ceac50.netlify.app/">
+    <a href="https://creative-team-frontend.netlify.app/">
       Demo
     </a>
     <span> | </span>
